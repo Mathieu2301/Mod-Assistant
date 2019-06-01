@@ -209,7 +209,7 @@ program.command('version <version>').description('Change the default version of 
     }
 });
 
-program.command('depend <id>').description('Remove a mod').action(id=>{
+program.command('depend <id>').description('Get all dependencies of a mod').action(id=>{
     console.log(chalk.magenta("Dependencies:"));
     getDependencies(id, dps=>
         dps.length>0 ?
