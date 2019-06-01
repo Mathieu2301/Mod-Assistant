@@ -188,7 +188,7 @@ program.command('remove <id>').description('Remove a mod').action(remove);
 program.command('delete <id>').description('Remove a mod').action(remove);
 program.command('uninstall <id>').description('Remove a mod').action(remove);
 
-program.command('version <version>').description('Change the default version of Minecraft').action(version=>{
+program.command('version <version>').description('Change the default version of mods').action(version=>{
     if (versions[version]){
         console.log(
             chalk.green("Version upgraded from ")
