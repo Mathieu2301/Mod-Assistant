@@ -14,32 +14,11 @@ If you want to build : `npm i pkg && pkg .`
 
 ## Commands
 
-### Search a mod by his name
-```
-moda search <name>
-```
-
-### Update installed mods
-```
-moda update
-(or 'moda u')
-```
-### Change default version of mods
-```
-moda version <version>
-```
-### Get all dependencies of a mod
-```
-moda depend <id>
-```
-### Update installed mods
-```
-moda install <id>
-(or 'moda i <id>')
-```
-### Remove a mod
-```
-moda delete <id>
-moda remove <id>
-moda uninstall <id>
-```
+| Command | Alias | Description |
+|- | - | - |
+| moda search <name> |-| Search a mod by his name |
+| moda update | moda u | Update installed mods |
+| moda version <version> | - | Change default version of mods |
+| moda depend <id> | - | Get all dependencies of a mod |
+| moda install <id> | moda i <id> | Update installed mods |
+| moda delete <id> | moda remove <id> | Remove a mod |
