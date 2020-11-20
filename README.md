@@ -16,7 +16,7 @@ If you want to build : `npm i pkg && pkg .`
 
 | Command | Alias | Description |
 |- | - | - |
-| moda search <name> | - | Search a mod by his name |
+| moda search <name> | - | Search a mod by name |
 | moda update | moda u | Update installed mods |
 | moda version <version> | - | Change default version of mods |
 | moda depend <id> | - | Get all dependencies of a mod |
